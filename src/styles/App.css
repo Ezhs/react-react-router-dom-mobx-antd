@@ -1,0 +1,37 @@
+/* Base Application Styles */
+/*  引入antd 样式  */
+@import '~antd/dist/antd.css';
+
+body {
+  color: #fff;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+.app {
+  position: relative;
+  padding-left: 256px;
+}
+.app .sider {
+  position: absolute;
+  top: 0; 
+  left: 0;
+}
+.app .layout {
+  padding: 10px;
+  float: left;
+  width: 100%;
+}
