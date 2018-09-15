@@ -3,35 +3,20 @@
 @import '~antd/dist/antd.css';
 
 body {
-  color: #fff;
-}
-
-.index img {
-  margin: 40px auto;
-  border-radius: 4px;
-  background: #fff;
-  display: block;
-}
-
-.index .notice {
-  margin: 20px auto;
-  padding: 15px 0;
-  text-align: center;
-  border: 1px solid #000;
-  border-width: 1px 0;
-  background: #666;
+  color: #333333;
 }
 .app {
-  position: relative;
-  padding-left: 256px;
+  display: flex;
 }
-.app .sider {
-  position: absolute;
-  top: 0; 
-  left: 0;
-}
+
 .app .layout {
   padding: 10px;
   float: left;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex: auto;
+}
+.app .layout .main {
   width: 100%;
 }

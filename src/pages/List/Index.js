@@ -1,6 +1,3 @@
-require('normalize.css/normalize.css');
-require('styles/App.css');
-
 import React from 'react';
 import {Button} from 'antd';
 let yeomanImage = require('../../images/yeoman.png');
